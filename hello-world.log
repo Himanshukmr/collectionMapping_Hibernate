@@ -1,0 +1,18 @@
+14:42:40,755 DEBUG SQL:109 - 
+    select
+        friend0_.id as id1_0_0_,
+        friend0_.name as name2_0_0_ 
+    from
+        Friend friend0_ 
+    where
+        friend0_.id=?
+14:42:40,760 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:43:24,582 DEBUG SQL:109 - 
+    select
+        friend0_.id as id1_0_0_,
+        friend0_.name as name2_0_0_ 
+    from
+        Friend friend0_ 
+    where
+        friend0_.id=?
+14:43:24,588 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
